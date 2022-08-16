@@ -19,7 +19,7 @@ class FourLetterWordList {
         fun getRandomFourLetterWord(): String {
             Log.i("FourLetterWordList", "I am in getRandomFourLetterWord()")
             val allWords = getAllFourLetterWords()
-            val randomNumber = Random.nextInt(allWords.size)
+            val randomNumber = Random.nextInt(377)
             Log.i("FourLetterWordList", allWords[randomNumber])
             return allWords[randomNumber].uppercase()
         }
